@@ -1,3 +1,3 @@
 #!/usr/bin/env pwsh
 
-New-AWSPowerShellLambdaPackage index.ps1 function.zip
+New-AWSPowerShellLambdaPackage -ScriptPath index.ps1 -OutputPackage function.zip
